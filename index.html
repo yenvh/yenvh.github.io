@@ -39,443 +39,137 @@
 </head>
 
 <body>
-	<!-- start header Area -->
-	<header id="header">
-		<div class="container main-menu">
-			<div class="row align-items-center justify-content-between d-flex">
-				<div id="logo">
-					<a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
-				</div>
-				<nav id="nav-menu-container">
-					<ul class="nav-menu">
-						<li class="menu-active"><a href="index.html">Home</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="pricing.html">Pricing</a></li>
-						<li class="menu-has-children"><a href="">Pages</a>
-							<ul>
-								<li><a href="elements.html">Elements</a></li>
-							</ul>
-						</li>
-						<li class="menu-has-children"><a href="">Blog</a>
-							<ul>
-								<li><a href="blog-home.html">Blog Home</a></li>
-								<li><a href="blog-single.html">Blog Single</a></li>
-							</ul>
-						</li>
-						<li><a href="contact.html">Contact</a></li>
-					</ul>
-				</nav>
-			</div>
+	<div style="text-align: justify; margin: 30px;">
+		<h2>Thế giới Agile ngày càng phức tạp</h2>
+		<br/>
+		<div style="text-align: center;">
+			<img style="width: 600px" src="https://s3.amazonaws.com/scrumorg-blog/wp-content/uploads/2016/12/24142835/Screenshot-2016-12-24-09.12.52-1024x778.png" />
 		</div>
-	</header>
-	<!-- end header Area -->
+		<br/>
 
-	<!-- start banner Area -->
-	<section class="home-banner-area">
-		<div class="container">
-			<div class="row fullscreen d-flex align-items-center justify-content-between">
-				<div class="home-banner-content col-lg-6 col-md-6">
-					<h1>
-						App That <br> Suits You Better
-					</h1>
-					<div class="download-button d-flex flex-row justify-content-start">
-						<div class="buttons flex-row d-flex">
-							<i class="fa fa-apple" aria-hidden="true"></i>
-							<div class="desc">
-								<a href="#">
-									<p>
-										<span>Available</span> <br>
-										on App Store
-									</p>
-								</a>
-							</div>
-						</div>
-						<div class="buttons dark flex-row d-flex">
-							<i class="fa fa-android" aria-hidden="true"></i>
-							<div class="desc">
-								<a href="#">
-									<p>
-										<span>Available</span> <br>
-										on Play Store
-									</p>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="banner-img col-lg-4 col-md-6">
-					<img class="img-fluid" src="img/banner-img.png" alt="">
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End banner Area -->
+<p>
+Ngày nghỉ cafe thảo luận, tôi cho rằng thế giới Agile đang ngày càng phức tạp. Phạm Anh Đới cũng đồng ý rằng, Agile đang bị bias - thành kiến: kẻ thích trở nên cuồng, người không thích trở thành căm ghét.
+</p>
+<p>
+Bài viết dài, là tập hợp của các ý tưởng lộn xộn. Vì thế bạn có thể nhảy vào bất cứ đoạn nào cũng nhận được các thông tin riêng lẻ; thấy hay thì đọc tiếp, không nhất thiết phải đọc từ đầu.
+</p>
+<br/><h3><strong>Agile là gì (và không là gì)?</strong></h3><br/>
+<p>Tại chính thời điểm này, định nghĩa về Agile hoàn toàn không rõ ràng. Quay lại lịch sử, thuật ngữ này lần đầu tiên được giới thiệu là "Agile Software Development", sau một cuộc hội thảo giữa 17 người là tác giả của một số phương pháp phát triển phần mềm hiện đại (có tên và không tên), 2001. Họ chia sẻ chung một số phương pháp, nguyên lý... và Manifesto for "Agile Software Development" ra đời với 4 điều trong Tuyên ngôn và 12 nguyên lý.
+</p>
+<p>
+Vậy là Agile Software Development có định nghĩa từ hời điểm đó, nhưng không bị giới hạn. Sau này có một số phương pháp nữa ra đời, dựa trên những nguyên lý trên, đồng thời khái niệm Agile cũng dần được thay thế cho Agile Software Development và lan dần sang một số lĩnh vực khác. Định nghĩa này chưa bao giờ được "nâng cấp version" một cách chính thức bởi những tác giả cũ cũng như mới nên nó trở nên không rõ ràng.
+</p>
+<br/><h3><strong>Agile thế nào (và không thế nào)?</strong></h3><br/>
+<p>
+Nhìn lại 4 điều trong Tuyên ngôn và 12 nguyên lý, dễ nhận thấy là chúng khá chung và đúng. Điều này dễ hiểu vì tìm kiếm điểm chung của nhiều phương pháp cũng như đồng thuận của 17 người, đại diện cho 17 tư duy, quan điểm thì khó mà cụ thể được.
+</p>
+<p>
+Thời điểm đó, Agile là tập hợp của các phương pháp phát triển phần mềm dựa trên sự kết hợp của phương pháp lặp và tăng trưởng. Lưu ý, tôi đang nói về phần "thể hiện" của các phương pháp, không phải "tư duy" (nguyên lý) phía sau.
+</p>
+<p>
+Nhưng sau này, dựa trên nguyên lý, nhiều thứ khác được coi là Agile với nhưng thể hiện không giống như ban đầu. Người ta bắt đầu nói về no planning, no estimation, no Sprint,... đủ thứ. Một ví dụ là Kanban, nó chỉ có thể hiện phần tăng trưởng, không rõ ràng đề cập tới lặp nhưng vẫn nằm trong Agile.
+</p>
+<br/><h3><strong>Agile có gì (và không có gì)?</strong></h3><br/>
+<p>
+Lưu ý rằng Agile Software Development cũng phải dựa trên một số nguyên tắc về quản lý, cách tổ chức nói chung nhưng những thứ này không được định nghĩa rõ ràng. Điều này dẫn đến một số hiểu lầm khá tệ. Ví dụ như <em>"self-organized team"</em> và <em>"cross-functional team"</em>, Agile sử dụng mà không sở hữu; vậy nên không thể hiểu chỉ Agile mới xây dựng những team như vậy. Hay như mô hình về team stage của Tuckman cũng không thuộc về Agile. Kỹ thuật 5Whys, Kaizen... cũng vậy. Đó là những công cụ để nhóm hay người quản lý nhóm thực hiện tiến hoá quy trình.
+</p>
+<p>
+Tương tự, DevOps ra đời sau, và "có liên quan" tới Agile. Nhưng ngày nay, cách hiểu Agile quá lớn nên DevOps được hiểu như là "nằm trong". Holacracy?
+</p>
+<p>
+Trách nhiệm có lẽ thuộc về những nhà tư vấn, đào tạo không phân biệt rõ, gây ra những hiểu nhầm rằng "Agile là con đường duy nhất để đạt được những điều này".
+</p>
+<br/><h3><strong>Agile hướng tới gì (và không hướng tới gì)?</strong></h3><br/>
+<p>
+Agile <em>hướng tới giá trị (value oriented)</em>, không <em>hướng quy trình (process oriented)</em>. Quy trình trong Agile cũng buộc phải thể hiện được giá trị mới có lý do để tồn tại. Để tìm được giá trị, bắt buộc phải trả lời câu hỏi <em>"tại sao (why)?"</em>. Để tìm được quy trình, câu hỏi là <em>"thế nào (how)?"</em>. Câu hỏi why khó hơn rất, rất nhiều câu hỏi how. Và thông thường, để trả lời được câu hỏi why, chúng ta cần dựa trên how đang tồn tại.
+</p>
+<p>
+Rắc rối ở đây, các nhà tư vấn, huấn luyện hoặc quản lý mong muốn đưa how vào trước; và kỳ vọng thời gian sau tổ chức sẽ tự trả lời được câu hỏi why. Công bằng mà nói, cách làm này không sai, nhưng nếu why không dần được tổ chức nhận ra, họ vẫn cứ loay hoay trong how. Và vô tình, Agile trở thành process oriented. Dù vậy, các "process" trong các phương pháp Agile vẫn khá tinh giản (so với các mô hình phát triển phần mềm khác), nên các team đã có quy trình trước đó khi chuyển sang Agile vẫn thấy bình thường. Điều tệ hại là, hầu hết các team ngày nay đều không áp dụng một phương pháp nào trước đó cho tới khi thực hành Agile, họ bỗng thấy Agile "cồng kềnh" và trở nên căm ghét.
+</p>
+<p>
+(Ví dụ, team trong Scrum là self-organized, thật khó tin là đưa 5, 7 con người vào một team và hy vọng self-organized được nên vẫn cần có một số quy tắc, quy trình cơ bản ban đầu; nếu team không có sự tiến hoá, sẽ trở thành process oriented).
+</p>
+<p>
+Sau không trào <em>"doing Agile"</em>, giờ là phong trào <em>"being Agile"</em> - dù không dễ, tôi vẫn thấy nó thiết thực. Nhưng <em>"go Agile"</em> thì không. Tôi chẳng biết trông nó sẽ thế nào.
+<br/><h3><strong>Agile phù hợp với gì (và không phù hợp với gì)?</strong></h3><br/>
+Nên nhớ, Agile ra đời với "Agile Software Development" tức là để giải quyết bài toán của phát triển phần mềm. Scrum nói rõ nó phù hợp với các dự án / sản phẩm nằm trong miền<em> "phức hợp và phức tạp tương đối"</em> về yêu cầu và kỹ thuật - tức là các dự án / sản phẩm đơn giản (đã rõ ràng) hoặc quá phức tạp (VD: R&amp;D, công nghệ quá cao...) cần được xem xét. Thế nào là đơn giản, phức tạp... phụ thuộc nhiều yếu tố: con người, trình độ, công cụ,... nên (ví dụ) Scrum có thể phù hợp với team này ở sản phẩm này nhưng không phù hợp với team khác ở chính sản phẩm đó.
+</p>
+<p>
+Agile dựa trên giả định về việc <em>"chào đón sự thay đổi" (welcome change, Scrum: adapt to change, XP: embrace change)</em>; tức là, mọi cá nhân trong tổ chức đều thống nhất rằng <em>"thay đổi là điều được chấp nhận"</em>. Tổ chức không đồng tình với sự thay đổi, không "chào đón" mà áp dụng Agile là sai từ gốc.
+</p>
+<p>
+Hầu hết các phương pháp Agile đều dựa trên gỉa định <em>"cá nhân có động lực làm việc"</em> nên các tổ chức còn loay hoay trong việc này cũng nên cẩn trọng.
+</p>
+<p>
+Nếu nhìn lại các câu hỏi đã được trả lời trên, Agile có thể giải quyết rất nhiều bài toán khác, không chỉ với việc phát triển phần mềm (trong Agile Y tôi còn nói tới cá nhân). Cùng với sự thống trị của các công ty công nghệ (mà lõi là sản phẩm phần mềm), Agile lan rộng sang những lĩnh vực khác, <em>"nuốt chửng cả thế giới"</em>. Cần lưu ý:
 
-	<!-- Start fact Area -->
-	<section class="fact-area">
-		<div class="container">
-			<div class="fact-box">
-				<div class="row align-items-center">
-					<div class="col single-fact">
-						<h2>100K+</h2>
-						<p>Total Downloads</p>
-					</div>
-					<div class="col single-fact">
-						<h2>10K+</h2>
-						<p>Positive Reviews</p>
-					</div>
-					<div class="col single-fact">
-						<h2>50K+</h2>
-						<p>Daily Visitors</p>
-					</div>
-					<div class="col single-fact">
-						<h2>0.02%</h2>
-						<p>Uninstallation Rate</p>
-					</div>
-					<div class="col single-fact">
-						<h2>15K+</h2>
-						<p>Pro User</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End fact Area -->
+- Vì vậy Agile càng không rõ ràng.
+- Các lĩnh vực khác không có chỉ dấu rõ ràng về hiệu quả vượt trội của Agile như trong phát triển phần mềm - nơi Agile ra đời do trải qua sự khủng hoảng về phương pháp.
+hãy cẩn trọng.
+</p>
+<br/><h3><strong>Agile trở thành "thuốc chữa bách bệnh".</strong></h3><br/>
+<p>
+Agile thực sử trở nên không rõ ràng. Cách hiểu gần nhất (của tôi) có thể là <em>"Agile là công cụ (mindset, toolset) để tăng tính linh hoạt (agility) của tổ chức, qua đó thích ứng tốt với thay đổi (hoặc dẫn dắt thay đổi)"</em>.
+</p>
+<p>
+Và cho đến giờ này, đây có vẻ là "bệnh" rõ nhất của các doanh nghiệp; và với hổ lốn những thứ được gắn tag Agile, Agile có vẻ được kỳ vọng quá lớn để chữa bách bệnh.
+</p>
+<p>
+Và khi không chữa được, đương nhiên Agile bị đổ lỗi.
+</p>
+<p>
+Như trên, tôi cho rằng trách nhiệm nằm ở những nhà tư vấn, đào tạo Agile trong việc rạch ròi Agile là gì, và Agile trong phạm vi anh cung cấp dịch vụ là gì, nó thế nào, hướng tới đâu. Bằng cách vơ vét tất cả mọi thứ vào Agile cùng sự quảng cáo quá đà, gây ra sự ảo tưởng về sức mạnh từ tổ chức.
+</p>
+<br/><h3><strong>Agile trở thành "đạo".</strong></h3><br/>
+<p>
+Agile dự trên pull-system, giả định <em>"cá nhân có động lực làm việc"</em>, điều này đi ngược với phần lớn cách tư duy về quản lý hiện có. Dù có hệ thống lý thuyết chặt chẽ đứng sau, Agile vẫn cần niềm tin để thực hiện trong tổ chức. Khi phương pháp cần tới "niềm tin" là điểm xuất phát thì nó không khác gì "đạo" - sẽ có kẻ sùng đạo và phản đạo.
+</p>
+<p>
+Có fan và anti-fan là điều dễ hiểu.
+</p>
+<br/><h3><strong>Scrum đã làm tốt gì (và không làm tốt gì)?</strong></h3><br/>
+<p>
+Scrum thực sự tuyệt vời. Nó là một mô hình tuyệt vời với đủ sự tinh gọn, hiệu quả cho phép tổ chức "nhận diện vấn đề". Đây là điều siêu quan trọng để phát triển sản phẩm cũng như phát triển tổ chức.
+</p>
+<p>
+Scrum không làm việc giải quyết vấn đề. Vậy nên nếu nhóm không giải quyết những vấn đề được nhận diện, Scrum là đống rác cạnh hàng ăn. Nhưng có phương pháp nào giải quyết vấn đề không?
+</p>
+<p>
+Scrum làm tốt trong việc ghi chú <em>"Scrum dễ hiểu, khó làm chủ"</em>.
+</p>
+<p>
+Scrum (đúng hơn là các tổ chức cấp chứng chỉ Scrum (Master, Developer, PO)) làm không tốt trong việc đào tạo. Khá dễ dãi. Có 2 lỗ hổng lớn, khiến các ScrumMaster cầm chứng chỉ và nếu không chịu học hỏi thêm sẽ mắc phải:
+</p>
+1. Không trả lời được rõ ràng các câu hỏi trên. Cái gì thuộc Scrum, cái gì không? Dẫn đến ngộ nhận trong lỹ thuyết lẫn thực hành.
 
-	<!-- Start feature Area -->
-	<section class="feature-area section-gap-top">
-		<div class="container">
-			<div class="row d-flex justify-content-center">
-				<div class="col-lg-6">
-					<div class="section-title text-center">
-						<h2>Unique Features</h2>
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-4 col-md-6">
-					<div class="single-feature">
-						<a href="#" class="title">
-							<span class="lnr lnr-book"></span>
-							<h3>Expert Technicians</h3>
-						</a>
-						<p>
-							Usage of the Internet is becoming more common due to rapid advancement of technology and power.
-						</p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="single-feature">
-						<a href="#" class="title">
-							<span class="lnr lnr-book"></span>
-							<h3>Professional Service</h3>
-						</a>
-						<p>
-							Usage of the Internet is becoming more common due to rapid advancement of technology and power.
-						</p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="single-feature">
-						<a href="#" class="title">
-							<span class="lnr lnr-book"></span>
-							<h3>Great Support</h3>
-						</a>
-						<p>
-							Usage of the Internet is becoming more common due to rapid advancement of technology and power.
-						</p>
-					</div>
-				</div>
-
-			</div>
-		</div>
-	</section>
-	<!-- End feature Area -->
-
-	<!-- Start about Area -->
-	<section class="about-area">
-		<div class="container">
-			<div class="row align-items-center">
-				<div class="col-lg-5 home-about-left">
-					<img class="img-fluid" src="img/iphone.png" alt="">
-				</div>
-				<div class="offset-lg-1 col-lg-5 home-about-right">
-					<h1>
-						We Believe that <br>
-						Interior beautifies the <br>
-						Total Architecture
-					</h1>
-					<a class="primary-btn text-uppercase" href="#">Get Details</a>
-				</div>
-				<div class="col-lg-6 home-about-right home-about-right2">
-					<h1>
-						We Believe that <br>
-						Interior beautifies the <br>
-						Total Architecture
-					</h1>
-					<div class="download-button d-flex flex-row justify-content-start">
-						<div class="buttons flex-row d-flex">
-							<i class="fa fa-apple" aria-hidden="true"></i>
-							<div class="desc">
-								<a href="#">
-									<p>
-										<span>Available</span> <br>
-										on App Store
-									</p>
-								</a>
-							</div>
-						</div>
-						<div class="buttons dark flex-row d-flex">
-							<i class="fa fa-android" aria-hidden="true"></i>
-							<div class="desc">
-								<a href="#">
-									<p>
-										<span>Available</span> <br>
-										on Play Store
-									</p>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-5 home-about-left">
-					<img class="img-fluid" src="img/iphone.png" alt="">
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End about Area -->
-
-	<!-- Start Screenshot Area -->
-	<section class="screenshot-area section-gap-top">
-		<div class="container">
-			<div class="row d-flex justify-content-center">
-				<div class="col-lg-6">
-					<div class="section-title text-center">
-						<h2>Featured Screens</h2>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="owl-carousel owl-screenshot">
-					<div class="single-screenshot">
-						<img class="img-fluid" src="img/screenshots/s1.jpg" alt="">
-					</div>
-					<div class="single-screenshot">
-						<img class="img-fluid" src="img/screenshots/s2.jpg" alt="">
-					</div>
-					<div class="single-screenshot">
-						<img class="img-fluid" src="img/screenshots/s3.jpg" alt="">
-					</div>
-					<div class="single-screenshot">
-						<img class="img-fluid" src="img/screenshots/s4.jpg" alt="">
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End Screenshot Area -->
-
-	<!-- Start Pricing Area -->
-	<section class="pricing-area">
-		<div class="container">
-			<div class="row d-flex justify-content-center">
-				<div class="col-lg-6">
-					<div class="section-title text-center">
-						<h2>Suitable Pricing Plans</h2>
-					</div>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col-lg-4 col-md-6">
-					<div class="single-price">
-						<div class="top-sec d-flex justify-content-between">
-							<div class="top-left">
-								<h4>Standard</h4>
-								<p>For the <br>individuals</p>
-							</div>
-							<div class="top-right">
-								<h1>£199</h1>
-							</div>
-						</div>
-						<div class="end-sec">
-							<ul>
-								<li>2.5 GB Free Photos</li>
-								<li>Secure Online Transfer Indeed</li>
-								<li>Unlimited Styles for interface</li>
-								<li>Reliable Customer Service</li>
-								<li>Manual Backup Provided</li>
-							</ul>
-							<button class="primary-btn price-btn mt-20">Purchase Plan</button>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="single-price">
-						<div class="top-sec d-flex justify-content-between">
-							<div class="top-left">
-								<h4>Business</h4>
-								<p>For <br>small Company</p>
-							</div>
-							<div class="top-right">
-								<h1>£399</h1>
-							</div>
-						</div>
-						<div class="end-sec">
-							<ul>
-								<li>2.5 GB Free Photos</li>
-								<li>Secure Online Transfer Indeed</li>
-								<li>Unlimited Styles for interface</li>
-								<li>Reliable Customer Service</li>
-								<li>Manual Backup Provided</li>
-							</ul>
-							<button class="primary-btn price-btn mt-20">Purchase Plan</button>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="single-price">
-						<div class="top-sec d-flex justify-content-between">
-							<div class="top-left">
-								<h4>Ultimate</h4>
-								<p>For <br>large Company</p>
-							</div>
-							<div class="top-right">
-								<h1>£499</h1>
-							</div>
-						</div>
-						<div class="end-sec">
-							<ul>
-								<li>2.5 GB Free Photos</li>
-								<li>Secure Online Transfer Indeed</li>
-								<li>Unlimited Styles for interface</li>
-								<li>Reliable Customer Service</li>
-								<li>Manual Backup Provided</li>
-							</ul>
-							<button class="primary-btn price-btn mt-20">Purchase Plan</button>
-						</div>
-					</div>
-				</div>
-
-			</div>
-		</div>
-	</section>
-	<!-- End Pricing Area -->
-
-	<!-- Start Footer Area -->
-	<footer class="footer-area section-gap">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-2 col-md-6 single-footer-widget">
-					<h4>Top Products</h4>
-					<ul>
-						<li><a href="#">Managed Website</a></li>
-						<li><a href="#">Manage Reputation</a></li>
-						<li><a href="#">Power Tools</a></li>
-						<li><a href="#">Marketing Service</a></li>
-					</ul>
-				</div>
-				<div class="col-lg-2 col-md-6 single-footer-widget">
-					<h4>Quick Links</h4>
-					<ul>
-						<li><a href="#">Jobs</a></li>
-						<li><a href="#">Brand Assets</a></li>
-						<li><a href="#">Investor Relations</a></li>
-						<li><a href="#">Terms of Service</a></li>
-					</ul>
-				</div>
-				<div class="col-lg-2 col-md-6 single-footer-widget">
-					<h4>Features</h4>
-					<ul>
-						<li><a href="#">Jobs</a></li>
-						<li><a href="#">Brand Assets</a></li>
-						<li><a href="#">Investor Relations</a></li>
-						<li><a href="#">Terms of Service</a></li>
-					</ul>
-				</div>
-				<div class="col-lg-2 col-md-6 single-footer-widget">
-					<h4>Resources</h4>
-					<ul>
-						<li><a href="#">Guides</a></li>
-						<li><a href="#">Research</a></li>
-						<li><a href="#">Experts</a></li>
-						<li><a href="#">Agencies</a></li>
-					</ul>
-				</div>
-				<div class="col-lg-4 col-md-6 single-footer-widget">
-					<h4>Newsletter</h4>
-					<p>You can trust us. we only send promo offers,</p>
-					<div class="form-wrap" id="mc_embed_signup">
-						<form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
-						 method="get" class="form-inline">
-							<input class="form-control" name="EMAIL" placeholder="Your Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address '"
-							 required="" type="email">
-							<button class="click-btn btn btn-default"><span class="lnr lnr-arrow-right"></span></button>
-							<div style="position: absolute; left: -5000px;">
-								<input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
-							</div>
-
-							<div class="info"></div>
-						</form>
-					</div>
-				</div>
-			</div>
-			<div class="footer-bottom row align-items-center">
-				<p class="footer-text m-0 col-lg-6 col-md-12"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-				<div class="col-lg-6 col-md-6 social-link">
-					<div class="download-button d-flex flex-row justify-content-end">
-						<div class="buttons gray flex-row d-flex">
-							<i class="fa fa-apple" aria-hidden="true"></i>
-							<div class="desc">
-								<a href="#">
-									<p>
-										<span>Available</span> <br>
-										on App Store
-									</p>
-								</a>
-							</div>
-						</div>
-						<div class="buttons gray flex-row d-flex">
-							<i class="fa fa-android" aria-hidden="true"></i>
-							<div class="desc">
-								<a href="#">
-									<p>
-										<span>Available</span> <br>
-										on Play Store
-									</p>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
-	<!-- End Footer Area -->
-
-	<script src="js/vendor/jquery-2.2.4.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-	 crossorigin="anonymous"></script>
-	<script src="js/tilt.jquery.min.js"></script>
-	<script src="js/vendor/bootstrap.min.js"></script>
-	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
-	<script src="js/easing.min.js"></script>
-	<script src="js/hoverIntent.js"></script>
-	<script src="js/superfish.min.js"></script>
-	<script src="js/jquery.ajaxchimp.min.js"></script>
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/owl-carousel-thumb.min.js"></script>
-	<script src="js/hexagons.min.js"></script>
-	<script src="js/jquery.nice-select.min.js"></script>
-	<script src="js/waypoints.min.js"></script>
-	<script src="js/mail-script.js"></script>
-	<script src="js/main.js"></script>
-	
+2. ScrumMaster không yêu cầu kiến thức về phát triển phần mềm. Về lý thuyết, điều này không sai; song thực tế thật khó để tham gia vào nhóm phát triển phần mềm mà không hiểu gì về cách nhóm thực hiện.
+<p>
+Từ đây dẫn tới những hệ luỵ vô cùng phức tạp. Chuyển giao cái gì? Technical debt là gì? Simple design là gì? Xử lý thế nào? Tài liệu thế nào là đủ?...
+</p>
+<p>
+ScrumMaster yếu về chuyên môn (ngành) và non tay dẫn dắt nhóm có trình độ cao hơn mình sẽ là thảm hoạ. Đội bóng cần HLV tương xứng. Vấn đề là, tốc độ phát triển của thành viên Nhóm phát triển thường nhanh hơn (và khởi đầu tốt hơn) những ScrumMaster. Vậy nên nhiều nhóm phát triển bắt đầu chán ghét Scrum.
+</p>
+<p>
+Trách nhiệm này thuộc một phần vào các tổ chức cấp chứng chỉ Scrum, phần lớn thuộc về các ScrumMaster khi không thể hiện được vai trò tương ứng, và cả các nhà đào tạo - không trang bị đủ hệ thống lý thuyết và thực hành.
+</p>
+<br/><h3><strong>Trách nhiệm của những nhà đào tạo, tư vấn?</strong></h3><br/>
+<p>
+Đừng trách sự tồn tại của những nhà đào tạo, tư vấn. Đừng trách những quảng cáo, khóa học. Đó là nhu cầu tất yếu, và thiết thực, bởi họ giúp rút ngắn con đường tổ chức tiếp cận Agile (nếu muốn). Nếu họ làm việc trên nguyên tắc cung cấp đúng giá trị và đạo đức.
+</p>
+<p>
+Nhưng, đến lúc này, tôi cho rằng những nhà đào tạo, tư vấn cần phải có câu trả lời rõ ràng cho mình, cho khách hàng rằng với anh, Agile là gì (và không là gì), Agile (trong phạm vi đó) mang lại giá trị gì và lấy đi gì...?
+</p>
+<p>
+Giống như bác sỹ, cần rõ ràng rằng những thành phần này là gì, tổ hợp lại được gọi tên gì, chữa bệnh gì, chống chỉ định gì, tác dụng phụ gì...?
+</p>
+<p>
+Tuyệt nhiên không thể mông lung như Agile làm nhóm hạnh phúc hơn, Agile giúp tăng năng suất, Agile giúp tăng tốc độ hoàn thành dự án... - những điều Agile nguyên thuỷ không hề đề cập.
+</p>
+<br/><h3><strong>Những chuyện "nhỏ nhặt" khác:</strong></h3><br/>
+<p>
+Còn một mớ trao đổi khác. Cơ chán rồi. Có phản hồi mà rảnh thì viết tiếp, thế cho nó Agile.
+</p>
+</div>	
 </body>
 
 </html>
